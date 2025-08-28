@@ -1,0 +1,52 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Docker / compose overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Environment / secrets
+.env
+.env.*
+secrets/
+
+# Airflow / DB / data
+data/
+data/postgres/
+airflow.db
+*.db
+
+# Other
+node_modules/
+.cache/
+
+# Ignore generated Python bytecode in dags if any
+dags/**/*.pyc
+
+# Keep .gitignore itself
+!/.gitignore
