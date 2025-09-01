@@ -33,6 +33,7 @@ docker-compose.local.yml
 # Environment / secrets
 .env
 .env.*
+!.env.example
 secrets/
 
 # Airflow / DB / data
